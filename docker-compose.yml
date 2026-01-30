@@ -4,6 +4,6 @@ services:
     build: .
     restart: always
     ports:
-      - "8004:3000"
+      - "8004:8004"
     environment:
-      - PORT=3000
+      - PORT=8004

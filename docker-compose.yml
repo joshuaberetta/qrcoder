@@ -1,0 +1,9 @@
+version: '3'
+services:
+  qrcoder:
+    build: .
+    restart: always
+    ports:
+      - "8004:3000"
+    environment:
+      - PORT=3000
